@@ -1,0 +1,15 @@
+
+:root {
+  /* colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-blue-light: #81b3d2;
+  --color-blue-middle: #4d7ba2;
+  --color-blue-bold: #1c4f80;
+
+  /* sizes */
+  --size-header-height: 56px;
+  --size-footer-height: 120px;
+  --page-padding-vertical: 50px;
+  --page-padding-horizontal: 72px;
+}
