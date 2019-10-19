@@ -1,13 +1,13 @@
 import { shallowMount } from '@vue/test-utils'
 import Component from './index'
 
-describe('hotels', () => {
+describe('HotelSortable', () => {
   let wrapper
 
   beforeEach(() => {
     wrapper = shallowMount(Component, {
-      computed: {
-        hotels: () => []
+      propsData: {
+        count: 10
       }
     })
   })

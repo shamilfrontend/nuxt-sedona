@@ -42,24 +42,6 @@ export default {
         imagePath: require(`./img/${hotel.imagePath}`)
       }))
     }
-  },
-
-  methods: {
-    starClasses(starCount) {
-      switch (starCount) {
-        case 1:
-          return 'hotel-stars-one'
-        case 2:
-          return 'hotel-stars-second'
-        case 3:
-          return 'hotel-stars-three'
-        case 4:
-          return 'hotel-stars-four'
-        default:
-        case 5:
-          return 'hotel-stars-five'
-      }
-    }
   }
 }
 </script>

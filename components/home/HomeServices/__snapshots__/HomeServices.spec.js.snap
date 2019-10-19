@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeServices should match snapshot 1`] = `
+<section class="home-services">
+  <div class="home-services__item home-services__item_house">
+    <h4 class="home-services__title">Жильё</h4>
+    <p class="home-services__text">
+      Рекомендуем пожить в настоящем мотеле, всё как в кино!
+    </p>
+  </div>
+  <div class="home-services__item home-services__item_food">
+    <h4 class="home-services__title">Еда</h4>
+    <p class="home-services__text">
+      Всегда заказывайте фирменный бургер, вы не разочаруетесь!
+    </p>
+  </div>
+  <div class="home-services__item home-services__item_souvenir">
+    <h4 class="home-services__title">Сувениры</h4>
+    <p class="home-services__text">
+      Не только китайского, но и местного производства!
+    </p>
+  </div>
+</section>
+`;

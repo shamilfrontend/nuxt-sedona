@@ -1,15 +1,11 @@
 import { shallowMount } from '@vue/test-utils'
 import Component from './index'
 
-describe('hotels', () => {
+describe('HotelFilters', () => {
   let wrapper
 
   beforeEach(() => {
-    wrapper = shallowMount(Component, {
-      computed: {
-        hotels: () => []
-      }
-    })
+    wrapper = shallowMount(Component, {})
   })
 
   test('mounts properly', () => {

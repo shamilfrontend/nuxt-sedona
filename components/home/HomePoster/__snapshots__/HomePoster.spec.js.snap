@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomePoster should match snapshot 1`] = `<div class="home-poster"><img src="./img/title-intro.png" alt="Welcome Sedona" class="home-poster__image"></div>`;

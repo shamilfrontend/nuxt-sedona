@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeTown should match snapshot 1`] = `
+<section class="home-town">
+  <div class="home-town__content">
+    <h3 class="home-town__title">Настоящий городок</h3>
+    <p class="home-town__number">— №1 —</p>
+    <p class="home-town__text">
+      Седона — не аттракцион для туристов, там течёт своя жизнь
+    </p>
+  </div>
+  <div class="home-town__image"></div>
+</section>
+`;

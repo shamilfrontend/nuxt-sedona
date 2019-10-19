@@ -39,10 +39,6 @@ export default {
     }
   },
 
-  data() {
-    return {}
-  },
-
   methods: {
     starClasses(starCount) {
       switch (starCount) {

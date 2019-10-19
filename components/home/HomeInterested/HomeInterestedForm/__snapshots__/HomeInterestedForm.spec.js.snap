@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeBridge should match snapshot 1`] = `
+<form action="#" method="post" class="interested-form">
+  <div class="interested-form__row"><label for="date-arrival">Дата заезда:</label> <input id="date-arrival" name="arrival" type="text" value="24 АПРЕЛЯ 2017" required="required" class="interested-form__field"> <button type="button" class="interested-form__icon-btn"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="22" viewBox="0 0 21 22">
+        <path d="M19.251 2.025h-2.845V.648c0-.381-.294-.689-.656-.689-.363 0-.656.308-.656.689v1.377h-3.938V.648c0-.381-.294-.689-.655-.689-.363 0-.657.308-.657.689v1.377H5.906V.648c0-.381-.294-.689-.656-.689-.363 0-.657.308-.657.689v1.377H1.75C.784 2.025 0 2.847 0 3.862v16.302C0 21.179.784 22 1.75 22h17.501c.966 0 1.749-.821 1.749-1.836V3.862c0-1.015-.783-1.837-1.749-1.837zm.437 18.139a.448.448 0 0 1-.437.459H1.75a.45.45 0 0 1-.438-.459V3.862a.45.45 0 0 1 .438-.459h2.844v1.378c0 .381.294.689.657.689.362 0 .656-.308.656-.689V3.403h3.938v1.378c0 .381.294.689.657.689.361 0 .655-.308.655-.689V3.403h3.938v1.378c0 .381.293.689.656.689.362 0 .656-.308.656-.689V3.403h2.845c.241 0 .437.206.437.459v16.302z"></path>
+        <path d="M4.594 8.225h2.625v2.066H4.594zM4.594 11.668h2.625v2.067H4.594zM4.594 15.112h2.625v2.066H4.594zM9.188 15.112h2.625v2.066H9.188zM9.188 11.668h2.625v2.067H9.188zM9.188 8.225h2.625v2.066H9.188zM13.781 15.112h2.625v2.066h-2.625zM13.781 11.668h2.625v2.067h-2.625zM13.781 8.225h2.625v2.066h-2.625z"></path>
+      </svg></button></div>
+  <div class="interested-form__row"><label for="date-departure">Дата выезда:</label> <input id="date-departure" name="departure" type="text" value="4 ИЮЛЯ 2017" class="interested-form__field"> <button type="button" class="interested-form__icon-btn"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="22" viewBox="0 0 21 22">
+        <path d="M19.251 2.025h-2.845V.648c0-.381-.294-.689-.656-.689-.363 0-.656.308-.656.689v1.377h-3.938V.648c0-.381-.294-.689-.655-.689-.363 0-.657.308-.657.689v1.377H5.906V.648c0-.381-.294-.689-.656-.689-.363 0-.657.308-.657.689v1.377H1.75C.784 2.025 0 2.847 0 3.862v16.302C0 21.179.784 22 1.75 22h17.501c.966 0 1.749-.821 1.749-1.836V3.862c0-1.015-.783-1.837-1.749-1.837zm.437 18.139a.448.448 0 0 1-.437.459H1.75a.45.45 0 0 1-.438-.459V3.862a.45.45 0 0 1 .438-.459h2.844v1.378c0 .381.294.689.657.689.362 0 .656-.308.656-.689V3.403h3.938v1.378c0 .381.294.689.657.689.361 0 .655-.308.655-.689V3.403h3.938v1.378c0 .381.293.689.656.689.362 0 .656-.308.656-.689V3.403h2.845c.241 0 .437.206.437.459v16.302z"></path>
+        <path d="M4.594 8.225h2.625v2.066H4.594zM4.594 11.668h2.625v2.067H4.594zM4.594 15.112h2.625v2.066H4.594zM9.188 15.112h2.625v2.066H9.188zM9.188 11.668h2.625v2.067H9.188zM9.188 8.225h2.625v2.066H9.188zM13.781 15.112h2.625v2.066h-2.625zM13.781 11.668h2.625v2.067h-2.625zM13.781 8.225h2.625v2.066h-2.625z"></path>
+      </svg></button></div>
+  <div class="interested-form__grid">
+    <div class="interested-form__col"><label for="adults">Взрослые:</label>
+      <div class="interested-form-counter"><input id="adults" type="text" value="2" min="1" class="interested-form-counter__field"> <button type="button" class="interested-form-counter__minus"><svg>
+            <rect fill="#a9a9a9" height="3" width="12" x="13" y="17"></rect>
+          </svg></button> <button type="button" class="interested-form-counter__plus"><svg>
+            <rect fill="#a9a9a9" height="3" width="12" x="13" y="17"></rect>
+            <rect fill="#a9a9a9" height="12" width="3" x="17.5" y="12.5"></rect>
+          </svg></button></div>
+    </div>
+    <div class="interested-form__col interested-form__col_right"><label for="children">Дети:</label>
+      <div class="interested-form-counter"><input id="children" type="text" value="0" min="0" class="interested-form-counter__field"> <button type="button" class="interested-form-counter__minus"><svg>
+            <rect fill="#a9a9a9" height="3" width="12" x="13" y="17"></rect>
+          </svg></button> <button type="button" class="interested-form-counter__plus"><svg>
+            <rect fill="#a9a9a9" height="3" width="12" x="13" y="17"></rect>
+            <rect fill="#a9a9a9" height="12" width="3" x="17.5" y="12.5"></rect>
+          </svg></button></div>
+    </div>
+  </div> <button type="submit" class="interested-form__submit-btn">
+    Найти
+  </button>
+</form>
+`;

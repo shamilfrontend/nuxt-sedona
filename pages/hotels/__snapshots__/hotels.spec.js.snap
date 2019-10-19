@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`hotels should match snapshot 1`] = `
+<div class="hotels-page">
+  <hotel-filters-stub></hotel-filters-stub>
+  <div class="hotels-page__content">
+    <hotel-sortable-stub count="0"></hotel-sortable-stub>
+    <section class="hotels-page__list"></section>
+  </div>
+</div>
+`;

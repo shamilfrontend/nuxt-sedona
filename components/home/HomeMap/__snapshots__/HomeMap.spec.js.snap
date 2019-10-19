@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeMap should match snapshot 1`] = `<div class="home-map"><img src="./img/map.png" alt="map" draggable="false"></div>`;

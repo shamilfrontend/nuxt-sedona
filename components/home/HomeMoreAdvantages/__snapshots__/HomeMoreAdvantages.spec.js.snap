@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeMoreAdvantages should match snapshot 1`] = `
+<section class="more-advantages">
+  <div class="more-advantages__item">
+    <h3 class="more-advantages__title">Небольшая площадь</h3>
+    <p class="more-advantages__number">— №3 —</p>
+    <p class="more-advantages__text">
+      Все достопримечательности находятся очень близко
+    </p>
+  </div>
+  <div class="more-advantages__item">
+    <h3 class="more-advantages__title">Красивая дорога</h3>
+    <p class="more-advantages__number">— №4 —</p>
+    <p class="more-advantages__text">
+      Ехать в Седону из Лас-Вегаса совсем не скучно!
+    </p>
+  </div>
+  <div class="more-advantages__item">
+    <h3 class="more-advantages__title">Мало туристов</h3>
+    <p class="more-advantages__number">— №5 —</p>
+    <p class="more-advantages__text">
+      Большинство едет в гранд каньон и толпится там
+    </p>
+  </div>
+</section>
+`;

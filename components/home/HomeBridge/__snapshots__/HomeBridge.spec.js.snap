@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeBridge should match snapshot 1`] = `
+<section class="home-bridge">
+  <div class="home-bridge__image"></div>
+  <div class="home-bridge__content">
+    <h3 class="home-bridge__title">
+      Там есть<br>
+      Мост дьявола
+    </h3>
+    <p class="home-bridge__number">— №2 —</p>
+    <p class="home-bridge__text">
+      Да, по нему можно пройти! Если конечно вы осмелитесь
+    </p>
+  </div>
+</section>
+`;

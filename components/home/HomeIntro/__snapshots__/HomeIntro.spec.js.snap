@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeIntro should match snapshot 1`] = `
+<div class="home-intro">
+  <h1 class="home-intro__title">
+    Седона — небольшой городок в Аризоне, заслуживающий большего!
+  </h1>
+  <h2 class="home-intro__sub-title">
+    Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!
+  </h2>
+</div>
+`;

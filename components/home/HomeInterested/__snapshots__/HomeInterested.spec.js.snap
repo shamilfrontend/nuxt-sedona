@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeInterested should match snapshot 1`] = `
+<section class="home-interested">
+  <h2 class="home-interested__title">Заинтересовались?</h2>
+  <p class="home-interested__description">
+    Укажите предполагаемые даты поездки,<br>
+    и мы покажем вам лучшие предложения гостиниц в седоне
+  </p>
+  <div class="home-interested__form-wrap"><a href="#" class="home-interested__btn">
+      Поиск гостиницы в Седоне
+    </a>
+    <home-interested-form-stub class="home-interested__form"></home-interested-form-stub>
+  </div>
+</section>
+`;

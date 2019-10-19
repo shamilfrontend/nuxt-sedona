@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HotelFilters should match snapshot 1`] = `
+<section class="hotel-filters">
+  <form class="filter filter-container">
+    <div class="filter-checkbox">
+      <h3 class="filter-title">Инфраструктура</h3>
+      <ul class="filter-checkbox-list">
+        <li class="filter-checkbox-item"><label><input name="pool" type="checkbox" checked="checked"> <span class="checkbox-indicator"></span>
+            Бассейн
+          </label></li>
+        <li class="filter-checkbox-item"><label><input name="parking" type="checkbox"> <span class="checkbox-indicator"></span>
+            Парковка
+          </label></li>
+        <li class="filter-checkbox-item"><label><input name="wi-fi" type="checkbox"> <span class="checkbox-indicator"></span>
+            Wi-Fi
+          </label></li>
+      </ul>
+    </div>
+    <div class="filter-checkbox">
+      <h3 class="filter-title">Тип жилья</h3>
+      <ul class="filter-checkbox-list">
+        <li class="filter-checkbox-item"><label><input name="guesthouse" type="checkbox" checked="checked"> <span class="checkbox-indicator"></span>
+            Гостиница
+          </label></li>
+        <li class="filter-checkbox-item"><label><input name="motel" type="checkbox" checked="checked"> <span class="checkbox-indicator"></span>
+            Мотель
+          </label></li>
+        <li class="filter-checkbox-item"><label><input name="apartment" type="checkbox" checked="checked"> <span class="checkbox-indicator"></span>
+            Апартаменты
+          </label></li>
+      </ul>
+    </div>
+    <div class="filter-range">
+      <h3 class="filter-title">Стоимость в сутки (р):</h3>
+      <div class="price-controls"><label class="min-price">
+          от
+          <input name="min-price" type="text" value="0"></label> <label class="max-price">
+          до
+          <input name="max-price" type="text" value="3000"></label></div>
+      <div class="range-controls">
+        <div class="scale">
+          <div class="bar"></div>
+          <div class="range-toggle range-toggle-min"></div>
+          <div class="range-toggle range-toggle-max"></div>
+        </div>
+      </div> <button type="submit" class="btn-transparent">Показать</button>
+    </div>
+  </form>
+</section>
+`;
