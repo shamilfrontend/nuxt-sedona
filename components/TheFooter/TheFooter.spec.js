@@ -1,11 +1,17 @@
 import { shallowMount } from '@vue/test-utils'
 import Component from './index'
 
-describe('HomePoster', () => {
+describe('TheFooter', () => {
   let wrapper
 
   beforeEach(() => {
-    wrapper = shallowMount(Component, {})
+    wrapper = shallowMount(Component, {
+      mocks: {
+        $route: {
+          path: '/'
+        }
+      }
+    })
   })
 
   test('mounts properly', () => {

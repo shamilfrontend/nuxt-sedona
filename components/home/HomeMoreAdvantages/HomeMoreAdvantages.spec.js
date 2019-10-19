@@ -1,7 +1,7 @@
 import { shallowMount } from '@vue/test-utils'
 import Component from './index'
 
-describe('HomePoster', () => {
+describe('HomeMoreAdvantages', () => {
   let wrapper
 
   beforeEach(() => {
