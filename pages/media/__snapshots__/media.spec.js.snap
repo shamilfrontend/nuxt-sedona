@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MediaPage should match snapshot 1`] = `
+<div class="page-wrap">
+  <h1 class="page-wrap__title">Фото и видео</h1>
+  <div class="page-wrap__content">
+    <h2>Фотографии</h2>
+    <ul class="photos">
+      <li class="photo"><img src="./img/1.jpg" alt="photo" class="photo__img"></li>
+      <li class="photo"><img src="./img/2.jpg" alt="photo" class="photo__img"></li>
+      <li class="photo"><img src="./img/3.jpg" alt="photo" class="photo__img"></li>
+      <li class="photo"><img src="./img/4.jpg" alt="photo" class="photo__img"></li>
+      <li class="photo"><img src="./img/5.jpg" alt="photo" class="photo__img"></li>
+      <li class="photo"><img src="./img/6.jpg" alt="photo" class="photo__img"></li>
+      <li class="photo"><img src="./img/7.jpg" alt="photo" class="photo__img"></li>
+      <li class="photo"><img src="./img/3.jpg" alt="photo" class="photo__img"></li>
+    </ul>
+    <h2>Видео</h2>
+    <div class="video-wrap"><iframe src="https://www.youtube.com/embed/gA6pxmdMiOQ" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div>
+  </div>
+</div>
+`;

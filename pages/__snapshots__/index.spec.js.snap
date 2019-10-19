@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IndexPage should match snapshot 1`] = `
+<div>
+  <home-poster-stub></home-poster-stub>
+  <home-intro-stub></home-intro-stub>
+  <home-town-stub></home-town-stub>
+  <home-services-stub></home-services-stub>
+  <home-bridge-stub></home-bridge-stub>
+  <home-more-advantages-stub></home-more-advantages-stub>
+  <home-interested-stub></home-interested-stub>
+  <home-map-stub></home-map-stub>
+</div>
+`;
