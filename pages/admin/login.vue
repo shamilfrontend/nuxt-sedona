@@ -6,7 +6,7 @@
       :rules="rules"
       @submit.native.prevent="onSubmit"
     >
-      <h1>Авторизация</h1>
+      <h1 class="login-card__title">Авторизация</h1>
 
       <el-form-item label="Логин" prop="login">
         <el-input v-model.trim="controls.login" />
@@ -113,7 +113,30 @@ export default {
 
 <style lang="scss" scoped>
 .login-card {
-  width: 500px;
+  max-width: 400px;
+  min-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+
+  &__title {
+    margin-top: 0;
+    text-align: center;
+    font-size: 26px;
+  }
+
+  /deep/ .el-card__body {
+    padding: 30px;
+  }
+
+  /deep/ .el-form-item {
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  /deep/ .el-button {
+    width: 100%;
+  }
 }
 
 .mt-3 {
