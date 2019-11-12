@@ -37,5 +37,12 @@ export default {
     margin: 0 0 51px;
     color: #333;
   }
+
+  @media (max-width: 992px) {
+    padding: 0 100px;
+  }
+  @media (max-width: 768px) {
+    padding: 0 40px;
+  }
 }
 </style>

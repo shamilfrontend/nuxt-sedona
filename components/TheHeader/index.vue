@@ -89,19 +89,22 @@ export default {
 
   &__item {
     text-align: left;
-    width: 203px;
+    max-width: 203px;
     margin: 15px 0;
 
     &:nth-child(2) {
       margin-right: 62px;
     }
+
     &:nth-child(3) {
       margin-left: 62px;
       text-align: right;
     }
+
     &:nth-child(4) {
       text-align: right;
     }
+
     .router-link-active {
       color: var(--color-blue-light);
     }
@@ -112,7 +115,7 @@ export default {
     line-height: 26px;
     color: var(--color-black);
 
-    .nuxt-link-exact-active,
+    &.nuxt-link-exact-active,
     &:hover,
     &:focus {
       color: var(--color-blue-light);

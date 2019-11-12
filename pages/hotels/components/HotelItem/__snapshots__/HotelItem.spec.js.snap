@@ -6,7 +6,9 @@ exports[`HotelItem should match snapshot 1`] = `
     <div class="hotel-item__image"><img src="hotel.png" alt="Amara Resost &amp; SPA" height="90" width="135"></div>
     <div class="hotel-item__content">
       <h3 class="hotel-item__name">Hotel Name</h3>
-      <div class="hotel-item-type"><span class="hotel-item-type__name">Гостиница</span> <span class="hotel-item-type__price">От 2000 Р.</span></div> <button type="button" class="hotel-item__more-btn">Подробнее</button>
+      <div class="hotel-item-type"><span class="hotel-item-type__name">
+          Гостиница
+        </span> <span class="hotel-item-type__price">От 2000 Р.</span></div> <button type="button" class="hotel-item__more-btn">Подробнее</button>
     </div>
   </div>
   <div class="hotel-item__right">

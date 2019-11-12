@@ -32,30 +32,35 @@ export default {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: center;
   min-height: 324px;
 
   &__item {
-    flex-basis: 400px;
+    flex-basis: 33.2%;
     margin: 0;
     padding: 0;
     text-align: center;
     background-color: var(--color-white);
+    background-repeat: no-repeat;
+    background-position-x: center;
 
     &_house {
       background-image: url(./img/icon-1.svg);
-      background-repeat: no-repeat;
-      background-position: center 54px;
+      background-position-y: 54px;
     }
     &_food {
       background-image: url(./img/icon-3.svg);
-      background-repeat: no-repeat;
-      background-position: center 55px;
+      background-position-y: 55px;
     }
     &_souvenir {
       background-image: url(./img/icon-2.svg);
-      background-repeat: no-repeat;
-      background-position: center 50px;
+      background-position-y: 50px;
+    }
+
+    @media (max-width: 768px) {
+      flex-basis: 100%;
+      margin-bottom: 30px;
+      background-position-y: 25px;
     }
   }
 
@@ -64,6 +69,10 @@ export default {
     margin: 0;
     padding: 156px 0 23px;
     color: var(--color-black);
+
+    @media (max-width: 768px) {
+      padding: 120px 0 30px;
+    }
   }
 
   &__text {

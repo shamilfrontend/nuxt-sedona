@@ -12,7 +12,9 @@
       <div class="hotel-item__content">
         <h3 class="hotel-item__name">{{ hotel.title }}</h3>
         <div class="hotel-item-type">
-          <span class="hotel-item-type__name">Гостиница</span>
+          <span class="hotel-item-type__name">
+            {{ displayHotelType(hotel.type) }}
+          </span>
           <span class="hotel-item-type__price">От {{ hotel.price }} Р.</span>
         </div>
         <button class="hotel-item__more-btn" type="button">Подробнее</button>
@@ -54,6 +56,17 @@ export default {
         case 5:
           return 'hotel-item__stars_five'
       }
+    },
+    displayHotelType(type) {
+      switch (type) {
+        default:
+        case 'hotel':
+          return 'Гостиница'
+        case 'motel':
+          return 'Мотель'
+        case 'apartments':
+          return 'Апартаменты'
+      }
     }
   }
 }
@@ -73,9 +86,7 @@ export default {
 
 .hotel-item {
   display: flex;
-  width: 1056px;
-  min-height: 92px;
-  padding: 29px 72px;
+  padding: 30px 72px;
   border-bottom: 1px solid #e5e5e5;
   justify-content: space-between;
 
@@ -89,6 +100,7 @@ export default {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
+    width: 115px;
   }
 
   &__image {
@@ -113,9 +125,7 @@ export default {
   }
 
   &__stars {
-    width: 112px;
     height: 16px;
-    margin-right: -3px;
     background-image: url('./img/star.svg');
     background-repeat: repeat-x;
     background-position: center right;
@@ -144,7 +154,6 @@ export default {
   &__rating {
     font-size: 14px;
     line-height: 21px;
-    width: 83px;
     height: 21px;
     padding: 3px 15px 3px 16px;
     color: #666;

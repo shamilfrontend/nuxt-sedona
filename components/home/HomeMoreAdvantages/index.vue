@@ -33,12 +33,12 @@ export default {
 <style lang="scss">
 .more-advantages {
   display: flex;
-  align-items: flex-start;
+  align-items: stretch;
   justify-content: flex-start;
   flex-wrap: wrap;
 
   &__item {
-    width: 400px;
+    width: 33.33%;
     min-height: 256px;
     text-align: center;
     color: #333;
@@ -46,6 +46,10 @@ export default {
 
     &:last-of-type p:nth-of-type(2) {
       padding: 0 75px;
+    }
+
+    @media (max-width: 768px) {
+      width: 100%;
     }
   }
 
@@ -55,6 +59,10 @@ export default {
     font-weight: bold;
     margin: 0;
     padding: 48px 125px 25px;
+
+    @media (max-width: 992px) {
+      padding: 30px;
+    }
   }
 
   &__number {

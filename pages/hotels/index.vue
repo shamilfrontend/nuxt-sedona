@@ -2,7 +2,7 @@
   <div class="hotels-page">
     <hotel-filters />
     <div class="hotels-page__content">
-      <hotel-sortable :count="hotelCount" />
+      <hotel-sortable :count="hotelCount" @sort-hotels="handleSortClick" />
       <section class="hotels-page__list">
         <hotel-item
           v-for="(hotel, index) in hotels"
@@ -15,6 +15,8 @@
 </template>
 
 <script>
+import { sortBy } from 'lodash-es'
+
 import HotelFilters from './components/HotelFilters'
 import HotelSortable from './components/HotelSortable'
 import HotelItem from './components/HotelItem'
@@ -41,6 +43,16 @@ export default {
         ...hotel,
         imagePath: require(`./img/${hotel.imagePath}`)
       }))
+    }
+  },
+
+  methods: {
+    handleSortClick(value) {
+      console.log('value', value)
+      console.log('this.hotels', this.hotels)
+      const sortingHotels = sortBy(this.hotels, 'rating')
+      console.log('sortingHotels', sortingHotels)
+      this.hotels = sortingHotels
     }
   }
 }

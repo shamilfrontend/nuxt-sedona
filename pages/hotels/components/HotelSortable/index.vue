@@ -14,7 +14,7 @@
             'hotel-sortable__link_active': item.value === selectedSort
           }"
           href="#"
-          @click.prevent="selectedSort = item.value"
+          @click.prevent="handleSortClick(item.value)"
         >
           {{ item.label }}
         </a>
@@ -78,6 +78,13 @@ export default {
           value: 'rating'
         }
       ]
+    }
+  },
+
+  methods: {
+    handleSortClick(value) {
+      this.selectedSort = value
+      this.$emit('sort-hotels', value)
     }
   }
 }

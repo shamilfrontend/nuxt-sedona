@@ -19,11 +19,4 @@ describe('hotels', () => {
   test('should match snapshot', () => {
     expect(wrapper.html()).toMatchSnapshot()
   })
-
-  test('should call asyncData', async () => {
-    const spy = jest.fn()
-    Component.asyncData = spy
-    await Component.asyncData()
-    expect(spy).toBeCalled()
-  })
 })

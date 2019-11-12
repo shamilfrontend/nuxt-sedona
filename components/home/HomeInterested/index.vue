@@ -41,9 +41,10 @@ export default {
 
 <style lang="scss" scoped>
 .home-interested {
-  min-height: 291px;
-  text-align: center;
+  position: relative;
+  z-index: 3;
   background-color: var(--color-white);
+  text-align: center;
 
   &__title {
     font-size: 30px;
@@ -60,6 +61,10 @@ export default {
     margin-top: 0;
     margin-bottom: 0;
     padding: 0 380px 44px;
+
+    @media (max-width: 992px) {
+      padding: 0 50px 40px;
+    }
   }
 
   &__form-wrap {
@@ -67,6 +72,10 @@ export default {
     max-width: 568px;
     margin-left: auto;
     margin-right: auto;
+
+    @media (max-width: 768px) {
+      max-width: 300px;
+    }
   }
 
   &__btn {
@@ -83,6 +92,12 @@ export default {
     border: none;
     background-color: #766357;
     box-shadow: 0 10px 20px 0 rgba(118, 99, 87, 0.25);
+
+    @media (max-width: 768px) {
+      font-size: 18px;
+      line-height: 20px;
+      padding: 20px;
+    }
   }
 
   &__form {
